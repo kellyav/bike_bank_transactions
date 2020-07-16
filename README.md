@@ -41,3 +41,8 @@ Selects a product from the products table using a given product_id
 
 A catch block is set up to catch any errors and avoid misreporting stock.
 
+- **buyer_register**
+
+This script controls the possible errors in the insertion of this person's data. 
+It also inserts those errors into the errors table.
+
