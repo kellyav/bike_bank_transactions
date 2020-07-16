@@ -46,3 +46,6 @@ A catch block is set up to catch any errors and avoid misreporting stock.
 This script controls the possible errors in the insertion of a buyer's data. 
 It also inserts those errors into the errors table.
 
+- **select_staff**
+
+ Selects all the information of a member from the staff table using a given staff_id. 
