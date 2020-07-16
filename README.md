@@ -43,6 +43,6 @@ A catch block is set up to catch any errors and avoid misreporting stock.
 
 - **buyer_register**
 
-This script controls the possible errors in the insertion of this person's data. 
+This script controls the possible errors in the insertion of a buyer's data. 
 It also inserts those errors into the errors table.
 
