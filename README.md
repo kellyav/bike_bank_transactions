@@ -1,11 +1,13 @@
 # bike_bank_transactions
-Maintenance of business tables in SQL Server, using the Bike and Bank databases. 
+Maintenance of business tables in SQL Server, using the Bike database. 
 
 ## Database 
 
-bike_bank_db
+bike_bank_db.sql
 
 ### Tables 
+
+Ones we used in this repo:
 
 - buyers
 
@@ -15,13 +17,16 @@ bike_bank_db
 
 - orders
 
+- errors
+
+Others:
+
 - customers
 
 - accounts
 
 - transactions
 
-- errors
 
 ## Scripts
 
