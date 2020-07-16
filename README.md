@@ -1,33 +1,6 @@
 # bike_bank_transactions
 Maintenance of business tables in SQL Server, using the Bike database. 
 
-## Database 
-
-bike_bank_db.sql
-
-### Tables 
-
-Ones we used in this repo:
-
-- buyers
-
-- products
-
-- staff
-
-- orders
-
-- errors
-
-Others:
-
-- customers
-
-- accounts
-
-- transactions
-
-
 ## Scripts
 
 - **employee_id**
@@ -65,3 +38,32 @@ while catching the possible errors generated in the execution of the stored proc
 Any time a bike is going to be sold, it needs to be in stock first. 
 This script checks the amount left in stock (given a scenario), and throws an error if there is not enough.
 
+
+
+## Database 
+
+bike_bank_db.sql
+
+Includes information about bike inventory (stock), prices, names of bikes, etc.
+
+### Tables 
+
+Ones we used in this repo:
+
+- buyers
+
+- products
+
+- staff
+
+- orders
+
+- errors
+
+Others:
+
+- customers
+
+- accounts
+
+- transactions
