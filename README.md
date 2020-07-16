@@ -49,3 +49,16 @@ It also inserts those errors into the errors table.
 - **select_staff**
 
  Selects all the information of a member from the staff table using a given staff_id. 
+ 
+- **bike_register**
+ 
+A registration needs to be created for 3 Super bike bikes with a price of $499.99, 
+while catching the possible errors generated in the execution of the stored procedure. This script does exactly that.
+
+- **check_stock**
+
+Any time a bike is going to be sold, it needs to be in stock first. 
+This script checks the amount left in stock (given a scenario), and throws an error if there is not enough.
+
+- 
+
