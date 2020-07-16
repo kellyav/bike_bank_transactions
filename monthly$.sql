@@ -15,3 +15,17 @@ BEGIN CATCH
 END CATCH  
 
 -- creates an error (including its details): Error converting data type varchar to numeric.
+
+--Correction: 
+BEGIN TRY
+	SELECT SUM(price * quantity) AS total 
+	FROM orders
+END TRY
+
+BEGIN CATCH
+	SELECT  ERROR_NUMBER() AS number,  
+        	ERROR_SEVERITY() AS severity_level,  
+        	ERROR_STATE() AS state,
+        	ERROR_LINE() AS line,  
+        	ERROR_MESSAGE() AS message; 	
+END CATCH
