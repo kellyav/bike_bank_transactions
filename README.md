@@ -39,7 +39,6 @@ Any time a bike is going to be sold, it needs to be in stock first.
 This script checks the amount left in stock (given a scenario), and throws an error if there is not enough.
 
 
-
 ## Database 
 
 bike_bank_db.sql
