@@ -68,4 +68,4 @@ Others:
 
 - transactions
 
-(See my [*bike_error_handles*](https://github.com/kellyav/bank_transactions) repo for scripts using these last 4 tables)
+(See my [*bank_transactions*](https://github.com/kellyav/bank_transactions/) repo for scripts using these last 3 tables)
